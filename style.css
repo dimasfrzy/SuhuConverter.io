@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3aa27;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.unit-selector {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+.convert-btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4dd13c;
+    color: #05468c;
+    cursor: pointer;
+}
+
+.output-container {
+    margin-top: 20px;
+}
+
+.output-text {
+    font-size: 24px;
+}
